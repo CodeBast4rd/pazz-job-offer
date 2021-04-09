@@ -1,3 +1,4 @@
+// checkout https://stackblitz.com/edit/pazz-job-offer
 import { Component } from "@angular/core";
 import { ApplicantService } from "./services/applicant.service";
 import { EmployeeService } from "./services/employee.service";
