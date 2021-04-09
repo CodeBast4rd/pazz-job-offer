@@ -1,0 +1,19 @@
+<div *ngIf="canBeHired()">
+  <p><b>{{TITLE.JOB_OFFER}}</b></p>
+  <p>{{INFO_SNIPPET}}</p>
+  <p><b>{{TITLE.TASKS}}</b></p>
+  <ul>
+    <li *ngFor="let line of TASKS">{{ line }}</li>
+  </ul>
+  <p><b>{{TITLE.QUALIFICATIONS}}</b></p>
+  <ul>
+    <li *ngFor="let line of QUALIFICATIONS">{{ line }}</li>
+  </ul>
+  <p><b>{{TITLE.BENEFITS}}</b></p>
+  <ul>
+    <li *ngFor="let line of BENEFITS">{{ line }}</li>
+  </ul>
+  <p>{{ABOUT_US}}</p>
+  <p>{{ ADDON }}</p>
+</div>
+<div *ngIf="!canBeHired()">{{ SORRY }}</div>
