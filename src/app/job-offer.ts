@@ -11,7 +11,7 @@ import { EmployeeService } from "./services/employee.service";
 export class JobOffer {
   // TODO: use i18n logic
   readonly TITLE = {
-    JOB_OFFER: "(Junior/Senior) Frontend Entwickler (m/w/d)",
+    JOB_OFFER: "(Junior/Senior) Full Stack Entwickler (m/w/d)",
     TASKS: "Deine Aufgaben:",
     QUALIFICATIONS: "Deine Qualifikationen:",
     BENEFITS: "Unsere Benefits:"
@@ -57,7 +57,7 @@ export class JobOffer {
     "Crewmitglieder zu finden. Sondern auch der Pazz Booster soll ein finanzieller Extra-Schub für eine besonders gelungene Filmidee" +
     " sein.";
 
-  readonly ADDON = "Bewerbungen können auch an info@alax.de geschickt werden.";
+  readonly ADDON = "Bewerbungen können auch an info@pazz.de geschickt werden.";
   readonly SORRY =
     "Schade das es nicht mit uns klappt. Wir hoffen du schaust bei uns nochmal vorbei.";
 
