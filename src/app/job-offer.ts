@@ -80,3 +80,6 @@ export class JobOffer {
     );
   }
 }
+
+// Follow up:
+// https://stackblitz.com/edit/jasmine-in-angular-plku5z?file=src/app/app.component.spec.ts
