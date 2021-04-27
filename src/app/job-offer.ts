@@ -1,4 +1,5 @@
 // checkout https://stackblitz.com/edit/pazz-job-offer
+// or for backend fans https://www.npmjs.com/package/@pazznetwork/pazz-apply-job
 import { Component } from "@angular/core";
 import { ApplicantService } from "./services/applicant.service";
 import { EmployeeService } from "./services/employee.service";
