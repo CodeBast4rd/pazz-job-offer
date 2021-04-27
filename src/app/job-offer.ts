@@ -18,6 +18,8 @@ export class JobOffer {
     BENEFITS: "Unsere Benefits:"
   };
 
+  readonly desiredCompanies = "pazz gmbh 💡";
+
   readonly INFO_SNIPPET = "Festanstellung - Vollzeit - München";
 
   readonly TASKS = [
