@@ -4,18 +4,18 @@
     <p>{{INFO_SNIPPET}}</p>
     <p><b>{{TITLE.TASKS}}</b></p>
     <ul>
-      <li *ngFor="let line of TASKS">{{ line }}</li>
+      <li *ngFor="let line of TASKS">{{line}}</li>
     </ul>
     <p><b>{{TITLE.QUALIFICATIONS}}</b></p>
     <ul>
-      <li *ngFor="let line of QUALIFICATIONS">{{ line }}</li>
+      <li *ngFor="let line of QUALIFICATIONS">{{line}}</li>
     </ul>
     <p><b>{{TITLE.BENEFITS}}</b></p>
     <ul>
-      <li *ngFor="let line of BENEFITS">{{ line }}</li>
+      <li *ngFor="let line of BENEFITS">{{line}}</li>
     </ul>
     <p>{{ABOUT_US}}</p>
-    <p>{{ ADDON }}</p>
+    <p>{{ADDON}}</p>
   </div>
-  <div *ngIf="!canBeHired()">{{ SORRY }}</div>
-<ng-container>
+  <div *ngIf="!canBeHired()">{{SORRY}}</div>
+  <ng-container>
